@@ -22,6 +22,7 @@ This project is developed to classify Documents(images) using an image classific
 
 ## Dataset
 
+Images are segeregated based on training and validation in folders named "train and "val" Respectively.
 The dataset used for training and validation consists of images categorized into Aadhaar cards, PAN cards, and driving licenses. The images have been preprocessed and resized to a common size for training and evaluation.
 (some images are downloaded from roboflow and some from google)
 
@@ -36,7 +37,7 @@ The VGG16 model is utilized as the base architecture. The convolutional layers o
 3. Organize your dataset into appropriate directories: train and validation.
 4. Configure the dataset paths and hyperparameters in the provided Python script.
 5. Run the Python script -: app.py
-6. The trained model i trained based on datased i provided named "train" is "classify.h5" in the project directory.
+6. The model is trained based on dataset that i provided in folders named "train" is "classify.h5" in the project directory.
 7. Use the saved model to classify images using the provided test code.(already provided in the code just change the dir path)
 
 ## Results
